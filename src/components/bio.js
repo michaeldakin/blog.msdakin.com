@@ -52,8 +52,8 @@ const Bio = () => {
         />
       )}
       {author?.name && (
-        <p> // //{author?.summary || null}
-          Written by <strong>{author.name}</strong>
+        <p>
+          Written by <strong>{author.name}</strong> <br>
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             Follow me on Twitter
